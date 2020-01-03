@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#form-holder {
+  background: white;
+  padding: 15px;  
+  max-width:600px;
+  margin: auto;
+  text-align: center;
+  height: 200px;
+}
+
+#team-name {
+  width: 40%;
+  padding: 10px;  
+  box-sizing: content-box;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
